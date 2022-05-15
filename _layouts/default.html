@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  <main>
+    <nav>
+      <header class="site-header">
+        <h1>{{ site.title }}</h1>
+      </header>
+      <img alt="{{ site.title }}" height="150"src="/assets/images/firefriendly-logo.png"/>
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+      </ol>
+    </nav>
+        {{ content }}
+    </main>
+  <footer>
+    &copy; 2022 firefriendly
+  </footer>
+</body>
+
+</html>
